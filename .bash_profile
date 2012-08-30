@@ -1,1 +1,0 @@
-/Users/khk002/.bash_profile
