@@ -1,0 +1,17 @@
+[include]
+  path = .gitconfig.local
+[color]
+  ui = auto
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  df = diff
+  dfs = diff --staged
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[core]
+  excludesfile = ~/.gitignore
+  editor = vim
+[merge]
+  tool = vimdiff
